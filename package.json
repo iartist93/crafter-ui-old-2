@@ -1,10 +1,20 @@
 {
-  "name": "vue-package-v2",
+  "name": "vue-package-v3",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "main": "dist/vue-package-03.common.js",
+  "module": "dist/vue-package-03.common.js",
+  "unpkg": "dist/vue-package-03.common.js",
+  "browser": {
+    "./sfc": "src/hello-world.vue"
+  },
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name vue-package-03 ./src/wrapper.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -38,5 +48,16 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` yarn install ```",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iartist93/vue-package.git"
+  },
+  "author": "Ahmad Ayman <mongez.me@gmail.com> (https://iartist93.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iartist93/vue-package/issues"
+  },
+  "homepage": "https://github.com/iartist93/vue-package#readme"
 }
