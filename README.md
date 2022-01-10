@@ -1,24 +1,16 @@
-# vue-package-v2
+# crafter-ui
 
-## Project setup
-```
-yarn install
-```
+## Build lib
 
-### Compiles and hot-reloads for development
-```
-yarn serve
+```sh
+> yarn lib
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+---
 
-### Lints and fixes files
-```
-yarn lint
-```
+### Build + Publish to NPM
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```sh
+> yarn lib
+> npm publish
+```
