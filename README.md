@@ -1,5 +1,13 @@
 # crafter-ui
 
+## Run Server
+
+```sh
+> yarn serve
+```
+
+---
+
 ## Build lib
 
 ```sh
@@ -8,7 +16,7 @@
 
 ---
 
-### Build + Publish to NPM
+## Build + Publish to NPM
 
 ```sh
 > yarn lib
